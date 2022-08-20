@@ -6,60 +6,43 @@ import Contact from './components/Contact'
 import Prints from './components/Prints'
 import Cart from './components/Cart'
 import Footer from './components/Footer'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import {BsCart2} from 'react-icons/bs'
-import { StickyContainer, Sticky } from 'react-sticky'
+
 
 function App() {
   const [prints, setPrints] = useState([]);
   const [cart, setCart] = useState(false);
 
-  for(let i = 0; i < prints.length; i++){
-    localStorage.setItem(`print${i}`, JSON.stringify(prints[i].price));
-    console.log(localStorage.key(`print${i}`))
-  }
 
-  useEffect(() => {
-    const getCart = async () => {
-      const cartFromServer = await fetchCart()
-      setPrints(cartFromServer)
+  const getCart = () => {
+    const length = localStorage.length
+    let printArr = [];
+    for(let i = 0; i < length; i++){
+      let print = JSON.parse(localStorage.getItem(`print${i}`))
+      printArr.push(print)
     }
-
-    getCart()
-  }, [])
-
-  const fetchCart = async () => {
-    const res = await fetch('http://localhost:5000/cart');
-    const data = await res.json()
-
-    return data
+    setPrints(printArr)
   }
 
-  const addPrint = async(print) => {
-    const res = await fetch('http://localhost:5000/cart', {
-      method: 'POST',
-      headers: {
-        'Content-type': 'application/json',
-      },
-      body: JSON.stringify(print)
-    })
-
-    const data = await res.json()
-
-    console.log(data)
-    setPrints([...prints, data])
+  const addPrint = (print) => {
+    const length = localStorage.length
+    localStorage.setItem(`print${length}`, JSON.stringify({...print, id: length}))
+    const localPrint = JSON.parse(localStorage.getItem(`print${length}`))
+    setPrints([...prints, localPrint])
   }
 
-  const deletePrint = async (id) => {
-    const res = await fetch(`http://localhost:5000/cart/${id}`, {
-      method: 'DELETE'
-    })
 
-    res.status === 200 ? setPrints(prints.filter((print) => print.id !== id)) : alert('error deleting print')
+  const deletePrint = (id) => {
+    localStorage.removeItem(`print${id}`)
+
+    setPrints(prints.filter((print) => print.id !== id))
   }
+
 
   const showCart = (e) => {
     console.log(cart)
+    getCart();
     setCart(current => !current)
   }
 

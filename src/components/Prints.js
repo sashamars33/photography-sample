@@ -67,7 +67,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Arches Orange Cliffs #1"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Arches Orange Cliffs #1"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -81,7 +81,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Arches Orange Cliffs #2"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Arches Orange Cliffs #2"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -95,7 +95,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Arches Orange Cliffs #3"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Arches Orange Cliffs #3"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -109,7 +109,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Arches Orange Cliffs #4"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Arches Orange Cliffs #4"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -123,7 +123,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Bryce HooDoos #1"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Bryce HooDoos #1"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -137,7 +137,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Bryce HooDoos #2"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Bryce HooDoos #2"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -151,7 +151,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Bryce HooDoos #3"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Bryce HooDoos #3"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -165,7 +165,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="South Cainville Mesa #1"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="South Cainville Mesa #1"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -179,7 +179,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="South Cainville Mesa #2"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="South Cainville Mesa #2"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -193,7 +193,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="South Cainville Mesa #3"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="South Cainville Mesa #3"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -207,7 +207,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="South Cainville Mesa #4"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="South Cainville Mesa #4"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -221,7 +221,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select >
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Escalante Valley #1"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Escalante Valley #1"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -235,7 +235,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Escalante Valley #2"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Escalante Valley #2"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -249,7 +249,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Escalante Valley #3"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Escalante Valley #3"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -263,7 +263,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Escalante Valley #4"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Escalante Valley #4"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -277,7 +277,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Petrified Forest #1"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Petrified Forest #1"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -291,7 +291,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Petrified Forest #2"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Petrified Forest #2"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -305,7 +305,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Petrified Forest #3"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Petrified Forest #3"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -319,7 +319,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Petrified Forest #4"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Petrified Forest #4"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -333,7 +333,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Zion Cliffs #1"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Zion Cliffs #1"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -347,7 +347,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Zion Cliffs #2"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Zion Cliffs #2"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
@@ -361,7 +361,7 @@ const Prints = ({ onAdd }) => {
             <option value='L'>16x24 in. - $60</option>
             <option value='XL'>32x48 in. - $120</option>
 					</select>
-          <input style={{display: 'none'}} name="printTitle" type="text" value="Zion Cliffs #3"></input>
+          <input style={{display: 'none'}} name="printTitle" type="text" readOnly value="Zion Cliffs #3"></input>
           <input type='submit' value='+'></input>
         </form>
       </div>
